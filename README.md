@@ -1,6 +1,6 @@
 # Haystacks
 
-Reads needs from a file then searches the haystack from a file if specified or from stdin if not.
+Reads needles from a file then searches the haystack from a file if specified, or from stdin if not.
 
 You can optionally specify a delimiter and column number to select which field in the haystack to search on.
 
