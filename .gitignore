@@ -4,3 +4,6 @@ build/
 *.iml
 *.ipr
 *.iws
+haystack.csv
+haystack.txt
+needles.txt
