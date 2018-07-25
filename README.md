@@ -1,19 +1,16 @@
-# Haystacks
+# Giant Haystacks
 
 Reads needles from a file then searches the haystack from a file if specified, or from stdin if not.
 
-You can optionally specify a delimiter and column number to select which field in the haystack to search on.
+**This simplified version of the main branch to test how a few different language compare at this task.**
 
 ## Usage
 
 ```
 $ java -jar build/libs/haystacks-1.0-SNAPSHOT-all.jar --help
-Usage: haystacks [-h] [--haystack=<haystack>] --needles=<needles> [-c=<column>]
-                 [-d=<delimiter>]
+Usage: haystacks [-h] [--haystack=<haystack>] --needles=<needles>
       --haystack=<haystack>
       --needles=<needles>
-  -c, --column=<column>
-  -d, --delimiter=<delimiter>
 
   -h, --help
 ```
